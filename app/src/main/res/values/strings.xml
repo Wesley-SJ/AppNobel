@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AppNobel</string>
+
+    <string name="QuizNobel">Quiz Nobel</string>
+    <string name="Comecar">Começar</string>
+    <string name="Inst">Instruções</string>
+    <string name="Estat">Estatísticas</string>
+    <string name="Cred">Créditos</string>
+
+    <string name="Pergunta1">1 - Pergunta</string>
+    <string name="Resposta">Resposta</string>
+
+
+    <string name="QuePena">Que Pena!</string>
+    <string name="Errou">Resposta errada...</string>
+    <string name="Recomecar">Recomeçar</string>
+
+    <string name="Parabens">Parabéns!</string>
+    <string name="Ganhou">Você ganhou</string>
+    <string name="Menu">Ir ao Menu</string>
+
+    <string name="PartidasJogadas">Partidas Jogadas</string>
+    <string name="PartidasGanhas">Partidas Ganhas</string>
+    <string name="QuestoesCorretas">Questoes Corretas</string>
+    <string name="QuestoesErradas">Questoes Erradas</string>
+    <string name="Percentual">Percentual de Vitórias</string>
+
+    <string name="InstruTexto">O Nobel Quiz são 15 perguntas, podendo errar 3. Lembre-se de que nem sempre as respostas são alternativas.</string>
+    <string name="Continuar">Continuar</string>
+    <string name="BomJogo">Bom Jogo!</string>
+
+    <string name="Desenhos">Desenhos:</string>
+    <string name="Criacao">Criação:</string>
+     <string name="ProdGeral">Produção Geral:</string>
+    <string name="Obrigado">Agradecimentos Especiais:</string>
+     <string name="Patrocinio">Patrocinio:</string>
+    <string name="Wesley">Wesley Spiandorim</string>
+     <string name="Thiago">Thiago Galvão</string>
+    <string name="WesleyANDThiago">Wesley Spiandorim e Thiago Galvão</string>
+    <string name="LeandroANDThiago">Thiago Galvão e Leandro Antônio</string>
+</resources>
