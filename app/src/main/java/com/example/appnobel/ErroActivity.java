@@ -1,4 +1,6 @@
 package com.example.appnobel;
 
-public class ErroActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class ErroActivity extends AppCompatActivity {
 }

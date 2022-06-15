@@ -1,4 +1,6 @@
 package com.example.appnobel;
 
-public class CreditActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class CreditActivity extends AppCompatActivity {
 }

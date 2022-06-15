@@ -1,4 +1,6 @@
 package com.example.appnobel;
 
-public class StatsActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class StatsActivity extends AppCompatActivity {
 }

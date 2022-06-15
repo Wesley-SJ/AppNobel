@@ -1,4 +1,6 @@
 package com.example.appnobel;
 
-public class WinActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class WinActivity extends AppCompatActivity {
 }

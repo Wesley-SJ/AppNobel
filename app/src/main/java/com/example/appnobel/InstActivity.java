@@ -1,4 +1,6 @@
 package com.example.appnobel;
 
-public class InstActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class InstActivity extends AppCompatActivity {
 }
