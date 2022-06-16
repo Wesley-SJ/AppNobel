@@ -55,41 +55,24 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/btnCreditos"
+        android:id="@+id/btnComecar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="232dp"
+        android:layout_marginBottom="15dp"
         android:backgroundTint="#472100"
-        android:text="@string/Cred"
-        android:textColor="@color/white"
+        android:text="@string/Comecar"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnInstru"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btnEstats"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
-        android:backgroundTint="#472100"
-        android:text="@string/Estat"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnCreditos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnInstru"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="15dp"
         android:backgroundTint="#472100"
         android:text="@string/Inst"
-        android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/btnEstats"
         app:layout_constraintEnd_toEndOf="parent"
@@ -97,16 +80,29 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnComecar"
+        android:id="@+id/btnCredits"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="224dp"
         android:backgroundTint="#472100"
-        android:text="@string/Comecar"
-        android:textColor="@color/white"
+        android:text="@string/Cred"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnInstru"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnEstats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#472100"
+        android:text="@string/Estat"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCredits"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
 

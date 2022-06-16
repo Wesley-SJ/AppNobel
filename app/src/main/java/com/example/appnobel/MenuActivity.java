@@ -21,5 +21,29 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(quiz);
             }
         });
+        Button btnInstru = (Button) findViewById(R.id.btnInstru);
+        btnInstru.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent instru = new Intent(MenuActivity.this,InstActivity.class);
+                startActivity(instru);
+            }
+        });
+        Button btnEstats = (Button) findViewById(R.id.btnEstats);
+        btnEstats.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent estats = new Intent(MenuActivity.this,StatsActivity.class);
+                startActivity(estats);
+            }
+        });
+        Button btnCredits = (Button) findViewById(R.id.btnCredits);
+        btnCredits.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent credits = new Intent(MenuActivity.this,CreditActivity.class);
+                startActivity(credits);
+            }
+        });
     }
 }
