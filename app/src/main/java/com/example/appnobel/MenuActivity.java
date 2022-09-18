@@ -28,6 +28,7 @@ public class MenuActivity extends AppCompatActivity {
                 Intent instru = new Intent(MenuActivity.this,InstActivity.class);
                 startActivity(instru);
             }
+            /*
         });
         Button btnEstats = (Button) findViewById(R.id.btnEstats);
         btnEstats.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +45,9 @@ public class MenuActivity extends AppCompatActivity {
                 Intent credits = new Intent(MenuActivity.this,CreditActivity.class);
                 startActivity(credits);
             }
+            */
         });
+
+
     }
 }
