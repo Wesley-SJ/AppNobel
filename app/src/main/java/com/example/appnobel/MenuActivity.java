@@ -38,13 +38,6 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(estats);
             }
         });
-        Button btnCredits = (Button) findViewById(R.id.btnCredits);
-        btnCredits.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent credits = new Intent(MenuActivity.this,CreditActivity.class);
-                startActivity(credits);
-            }
             */
         });
 
