@@ -5,117 +5,104 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E9C07B"
+    android:outlineAmbientShadowColor="#000000"
     tools:context=".QuizActivity1">
 
 
     <!--Cards menu-->
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="414dp"
+        android:layout_height="736dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backgroundquest" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ConteinerLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="125dp">
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="52dp"
-            android:layout_marginEnd="12dp"
-            app:layout_constraintEnd_toStartOf="@+id/textView2"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/png_transparent_nobel_prize_in_physiology_or_medicine_nobel_prize_in_literature_nobel_memorial_prize_in_economic_sciences_nobel_prize_kyoto_nobel_prize_in_physics_removebg" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:fontFamily="@font/tenor_sans"
-            android:text="@string/QuizNobel"
-            android:textSize="40dp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.629" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        tools:layout_editor_absoluteX="125dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ConteinerCards"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="364dp"
+        android:layout_height="460dp"
+        android:background="@drawable/caixaquiz"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ConteinerLogin">
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295" >
 
         <Button
-            android:id="@+id/btnResposta1"
-            android:layout_width="wrap_content"
+            android:id="@+id/btnR4"
+            android:layout_width="280dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="88dp"
-            android:layout_marginTop="108dp"
-            android:backgroundTint="#472100"
-            android:foregroundTint="#FF0000"
-            android:text="@string/Resposta"
-            android:textColor="@color/white"
-            app:iconTint="#FF0000"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="@string/Resposta4"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnR3"
+            app:strokeColor="#B5B5B5"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/btnR1"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="196dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="@string/Resposta1"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:rippleColor="#FF0000" />
+            app:strokeColor="#B5B5B5"
+            app:strokeWidth="2dp" />
 
         <Button
-            android:id="@+id/btnResposta2"
-            android:layout_width="wrap_content"
+            android:id="@+id/btnR3"
+            android:layout_width="280dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="108dp"
-            android:layout_marginEnd="80dp"
-            android:backgroundTint="#472100"
-            android:text="@string/Resposta"
-            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="@string/Resposta3"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            app:cornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/btnResposta3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="88dp"
-            android:layout_marginTop="36dp"
-            android:backgroundTint="#472100"
-            android:text="@string/Resposta"
-            android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnResposta1" />
+            app:layout_constraintTop_toBottomOf="@+id/btnR2"
+            app:strokeColor="#B5B5B5"
+            app:strokeWidth="2dp" />
 
         <Button
-            android:id="@+id/btnResposta4"
-            android:layout_width="wrap_content"
+            android:id="@+id/btnR2"
+            android:layout_width="280dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
-            android:layout_marginEnd="80dp"
-            android:backgroundTint="#472100"
-            android:text="@string/Resposta"
-            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="@string/Resposta2"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            app:cornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnResposta2" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:fontFamily="@font/tenor_sans"
-            android:text="@string/Pergunta1"
-            android:textSize="30dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/btnR1"
+            app:strokeColor="#B5B5B5"
+            app:strokeWidth="2dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

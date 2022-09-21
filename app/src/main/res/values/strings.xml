@@ -7,8 +7,11 @@
     <string name="Estat">Estatísticas</string>
     <string name="Cred">Créditos</string>
 
-    <string name="Pergunta1">1 - Pergunta</string>
-    <string name="Resposta">Resposta</string>
+    <string name="Pergunta1">Qual o nome da lenda no ícone do jogo? </string>
+    <string name="Resposta1">Teros</string>
+    <string name="Resposta2">Bödvar</string>
+    <string name="Resposta3">Azoth</string>
+    <string name="Resposta4">Björn</string>
 
 
     <string name="QuePena">Que Pena!</string>
