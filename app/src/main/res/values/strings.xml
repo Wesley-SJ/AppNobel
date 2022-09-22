@@ -38,11 +38,23 @@
 
     <string name="Desenhos">Desenhos:</string>
     <string name="Criacao">Criação:</string>
-     <string name="ProdGeral">Produção Geral:</string>
+    <string name="ProdGeral">Produção Geral:</string>
     <string name="Obrigado">Agradecimentos Especiais:</string>
-     <string name="Patrocinio">Patrocinio:</string>
+    <string name="Patrocinio">Patrocinio:</string>
     <string name="Wesley">Wesley Spiandorim</string>
-     <string name="Thiago">Thiago Galvão</string>
+    <string name="Thiago">Thiago Galvão</string>
     <string name="WesleyANDThiago">Wesley Spiandorim e Thiago Galvão</string>
     <string name="LeandroANDThiago">Thiago Galvão e Leandro Antônio</string>
+
+    <string name="endereco">"Endereço: %1$s  \n \n Horário: %4$tr"</string>
+    <string name="loading">Carregando…</string>
+    <string name="parar_busca">PARAR BUSCA</string>
+    <string name="iniciar_busca">INICIAR</string>
+    <string name="hint">Clique no botão para iniciar</string>
+    <string name="permissao_recusada">Permissão negada, autorize a aplicação </string>
+    <string name="sem_localizacao">Localização Indisponível</string>
+    <string name="sem_endereco">Endereço indisponível</string>
+    <string name="coordenada_invalida">Coordenadas inválidas</string>
+    <string name="servico_indisponivel">Esse serviço está indisponível</string>
+
 </resources>
