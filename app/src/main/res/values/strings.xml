@@ -7,20 +7,24 @@
     <string name="Estat">Estatísticas</string>
     <string name="Cred">Créditos</string>
 
-    <string name="Pergunta1">Qual o nome da lenda no ícone do jogo? </string>
+    <string name="Pergunta1">Qual o nome da lenda no ícone do jogo?</string>
     <string name="Resposta1">Teros</string>
     <string name="Resposta2">Bödvar</string>
     <string name="Resposta3">Azoth</string>
     <string name="Resposta4">Björn</string>
+    <string name="Tempo">Tempo:</string>
+    <string name="Cronometro">00</string>
+    <string name="N1.10">1/10</string>
+    <string name="Dica">Dica</string>
+    <string name="DicaDesc">Se trata de um personagem Viking.</string>
 
 
     <string name="QuePena">Que Pena!</string>
     <string name="Errou">Resposta errada...</string>
-    <string name="Recomecar">Recomeçar</string>
 
     <string name="Parabens">Parabéns!</string>
-    <string name="Ganhou">Você ganhou</string>
-    <string name="Menu">Ir ao Menu</string>
+    <string name="Ganhou">Você venceu!</string>
+    <string name="Menu">Voltar ao Menu</string>
 
     <string name="PartidasJogadas">Partidas Jogadas</string>
     <string name="PartidasGanhas">Partidas Ganhas</string>

@@ -11,6 +11,46 @@
 
     <!--Cards menu-->
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        app:cardBackgroundColor="#991B1B1B"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ConteinerCards">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@android:drawable/ic_dialog_info" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/Dica"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/DicaDesc"
+            android:textColor="#FFFFFF"
+            android:textSize="12dp" />
+    </androidx.cardview.widget.CardView>
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="414dp"
@@ -26,7 +66,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="125dp" />
+        tools:layout_editor_absoluteX="125dp" >
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ConteinerCards"
@@ -38,7 +80,7 @@
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295" >
+        app:layout_constraintVertical_bias="0.295">
 
         <Button
             android:id="@+id/btnR4"
@@ -46,6 +88,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/lato_bold"
             android:text="@string/Resposta4"
             android:textAllCaps="false"
             android:textColor="#000000"
@@ -62,6 +105,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="196dp"
             android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/lato_bold"
             android:text="@string/Resposta1"
             android:textAllCaps="false"
             android:textColor="#000000"
@@ -78,6 +122,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/lato_bold"
             android:text="@string/Resposta3"
             android:textAllCaps="false"
             android:textColor="#000000"
@@ -94,6 +139,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/lato_bold"
             android:text="@string/Resposta2"
             android:textAllCaps="false"
             android:textColor="#000000"
@@ -103,6 +149,54 @@
             app:layout_constraintTop_toBottomOf="@+id/btnR1"
             app:strokeColor="#B5B5B5"
             app:strokeWidth="2dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/Pergunta1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/Tempo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/Cronometro"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/N1.10"
+            android:textSize="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
