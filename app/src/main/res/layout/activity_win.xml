@@ -20,8 +20,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ConteinerCards"
-        android:layout_width="415dp"
-        android:layout_height="539dp"
+        android:layout_width="364dp"
+        android:layout_height="460dp"
         android:background="@drawable/caixaquiz"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
             android:id="@+id/btnR1"
             android:layout_width="220dp"
             android:layout_height="50dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="90dp"
             android:backgroundTint="#FF5C00"
             android:fontFamily="@font/lato_bold"
             android:text="@string/Menu"
@@ -53,10 +53,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:fontFamily="@font/lato_bold"
-            android:text="@string/Ganhou"
+            android:text="@string/Errou"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="34dp"
+            android:textSize="28dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -67,8 +67,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:fontFamily="@font/lato_bold"
-            android:text="@string/Parabens"
-            android:textSize="21dp"
+            android:text="@string/QuePena"
+            android:textSize="18dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -89,10 +89,10 @@
         android:id="@+id/imageView9"
         android:layout_width="260dp"
         android:layout_height="260dp"
-        android:layout_marginTop="155dp"
-        app:layout_constraintEnd_toEndOf="@+id/ConteinerCards"
-        app:layout_constraintStart_toStartOf="@+id/ConteinerCards"
-        app:layout_constraintTop_toTopOf="@+id/ConteinerCards"
+        android:layout_marginTop="230dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView8"
         app:srcCompat="@drawable/bodvarvictory" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

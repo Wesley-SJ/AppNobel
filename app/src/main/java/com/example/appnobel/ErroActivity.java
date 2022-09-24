@@ -13,8 +13,8 @@ public class ErroActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_error);
 
-        Button btnRecomecar = (Button) findViewById(R.id.btnRecomecar);
-        btnRecomecar.setOnClickListener(new View.OnClickListener() {
+        Button btnVoltarMenu = (Button) findViewById(R.id.btnR1);
+        btnVoltarMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent voltar = new Intent(ErroActivity.this, MenuActivity.class);

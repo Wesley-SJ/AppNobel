@@ -13,7 +13,7 @@ public class WinActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_win);
 
-        Button btnVoltar = (Button) findViewById(R.id.btnResposta1);
+        Button btnVoltar = (Button) findViewById(R.id.btnR1);
         btnVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

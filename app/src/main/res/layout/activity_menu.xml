@@ -31,7 +31,7 @@
         android:id="@+id/btnComecar"
         android:layout_width="165dp"
         android:layout_height="55dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:autoSizeTextType="none"
         android:backgroundTint="@color/white"
         android:elegantTextHeight="false"
@@ -44,24 +44,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
-
-    <Button
-        android:id="@+id/btnInstru"
-        android:layout_width="115dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="184dp"
-        android:backgroundTint="#661B1B1B"
-        android:letterSpacing="0.05"
-        android:text="@string/Inst"
-        android:textAllCaps="false"
-        android:textColor="#FFFFFF"
-        android:textSize="14dp"
-        app:cornerRadius="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnComecar"
-        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView2"
